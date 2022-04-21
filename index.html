@@ -1,275 +1,272 @@
 <!DOCTYPE html>
-<!--
-  =========================================================================
-  Nome do Projeto: Site Responsivo OnePage +2
-  Finalidade: Cursos de Informática do IFSP campus Caraguatatuba
-  Autores: Marilene Esquiavoni & Denny Paulista Azevedo Filho
-  License: MIT License
-  =========================================================================
--->
 <html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="keywords" content="web, curso web, css, html" />
+		<meta
+			name="description"
+			content="Informações dos melhores aviões do mundo em todos os tempos e guerras"
+		/>
+		<meta name="author" content="Denny Azevedo & Marilene Esquiavoni" />
+		<meta
+			name="viewport"
+			content="width=device-width,initial-scale=1.0,maximum-scale=1.0"
+		/>
+		<!-- Favicon -->
+		<link href="img/favicon.PNG" rel="icon" />
+		<link href="img/favicon.PNG" rel="apple-touch-icon" />
 
-<head>
-    <meta charset="utf-8">
-    <meta name="keywords" content="web, curso web, css, html">
-    <meta name="description" content="Informações dos melhores aviões do mundo em todos os tempos e guerras">
-    <meta name="author" content="Denny Azevedo & Marilene Esquiavoni">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0">
-    <!-- Favicon -->
-    <link href="img/favicon.PNG" rel="icon">
-    <link href="img/favicon.PNG" rel="apple-touch-icon">
+		<title>Melhores Aviões do Mundo</title>
 
-    <title>Best Airplanes in World</title>
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+		<link
+			href="https://fonts.googleapis.com/icon?family=Material+Icons"
+			rel="stylesheet"
+		/>
+		<link rel="preconnect" href="https://fonts.gstatic.com" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap"
+			rel="stylesheet"
+		/>
+	</head>
 
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
-</head>
+	<body>
+		<header>
+			<!-- Menu -->
+			<div class="container">
+				<div class="logo">
+					<!--<h2>Best Planes</h2>-->
+					<img src="img/AsasRAF.png" />
+				</div>
+				<nav class="menu-desktop">
+					<ul>
+						<li class="selected"><a href="index.html">Início</a></li>
+						<li><a href="sobre.html">Sobre</a></li>
+						<li><a href="contato.html">Contato</a></li>
+					</ul>
+				</nav>
+				<!-- Menu Mobile -->
+				<nav class="menu-mobile">
+					<h2><span class="material-icons">reorder</span></h2>
+					<ul>
+						<li class="selected"><a href="#">Início</a></li>
+						<li><a href="sobre.html">Sobre</a></li>
+						<li><a href="contato.html">Contato</a></li>
+					</ul>
+				</nav>
+				<div class="clear"></div>
+			</div>
+		</header>
+		<section class="main-bg">
+			<div class="overlay"></div>
+			<div class="container">
+				<h2>Best Planes</h2>
+				<p>
+					Lorem Ipsum is simply dummy text of the printing and typesetting
+					industry. Lorem Ipsum has been the industry's standard dummy text ever
+					since the 1500s, when an unknown printer took a galley of type and
+					scrambled it to make a type specimen book.
+				</p>
+				<p>
+					Lorem Ipsum is simply dummy text of the printing and typesetting
+					industry. Lorem Ipsum has been the industry's standard dummy text ever
+					since the 1500s, when an unknown printer took a galley of type and
+					scrambled it to make a type specimen book.
+				</p>
+				<a href="#" class="button button1">SAIBA MAIS</a>
+			</div>
+		</section>
+		<section class="diferenciais">
+			<div class="container">
+				<div class="line-text">
+					<div></div>
+					<h2>Experiência do Usuário</h2>
+				</div>
+				<div class="icones-diferenciais">
+					<div class="box-icone-single">
+						<h2>
+							<span class="material-icons"> touch_app </span>
+						</h2>
+						<p>
+							Tem raízes numa peça de literatura clássica em Latim, de 45 AC,
+							tornando-o com mais de 2000 anos.
+						</p>
+					</div>
+					<div class="box-icone-single">
+						<h2>
+							<span class="material-icons"> assignment_ind </span>
+						</h2>
+						<p>
+							Tem raízes numa peça de literatura clássica em Latim, de 45 AC,
+							tornando-o com mais de 2000 anos.
+						</p>
+					</div>
+					<div class="box-icone-single">
+						<h2>
+							<span class="material-icons"> record_voice_over </span>
+						</h2>
+						<p>
+							Tem raízes numa peça de literatura clássica em Latim, de 45 AC,
+							tornando-o com mais de 2000 anos.
+						</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="sobre-equipe">
+			<div class="container">
+				<div class="equipe-container">
+					<div class="line-text">
+						<div style="width: 90px"></div>
+						<h2>Equipe</h2>
+					</div>
+					<!--  Inicio Box Avatar -->
+					<div class="avatar-box">
+						<div
+							class="img-avatar"
+							style="background-image: url('img/equipe01.png')"
+						></div>
+						<div class="descricao-avatar">
+							<h3>Tux Batman</h3>
+							<p>
+								Ao contrário da crença popular, o Lorem Ipsum não é simplesmente
+								texto aleatório.
+							</p>
+						</div>
+					</div>
+					<!--  Inicio Box Avatar -->
+					<div class="avatar-box">
+						<div
+							class="img-avatar"
+							style="background-image: url('img/equipe02.png')"
+						></div>
+						<div class="descricao-avatar">
+							<h3>Tux Juiz Dredd</h3>
+							<p>
+								Ao contrário da crença popular, o Lorem Ipsum não é simplesmente
+								texto aleatório.
+							</p>
+						</div>
+					</div>
+				</div>
+				<!-- Equipe -->
+				<div class="sobre-container">
+					<div class="line-text">
+						<div style="width: 70px"></div>
+						<h2>Sobre</h2>
+						<p>
+							Existem muitas variações das passagens do Lorem Ipsum disponíveis,
+							mas a maior parte sofreu alterações de alguma forma, pela injecção
+							de humor, ou de palavras aleatórias que nem sequer parecem
+							suficientemente credíveis.
+						</p>
+						<p>
+							Existem muitas variações das passagens do Lorem Ipsum disponíveis,
+							mas a maior parte sofreu alterações de alguma forma, pela injecção
+							de humor, ou de palavras aleatórias que nem sequer parecem
+							suficientemente credíveis.
+						</p>
+					</div>
+				</div>
+				<!-- sobre -->
+			</div>
+			<!-- container -->
+		</section>
+		<!-- sobre equipe -->
 
-<body>
-    <header>
-        <!-- Menu -->
-        <div class="container">
-            <div class="logo">
-                <!--<h2>Best Planes</h2>-->
-                <img src="img/AsasRAF.png">
-            </div>
-            <nav class="menu-desktop">
-                <ul>
-                    <li class="selected"><a href="index.html">Início</a></li>
-                    <li><a href="sobre.html">Sobre</a></li>
-                    <li><a href="contato.html">Contato</a></li>
-                </ul>
-            </nav>
-            <!-- Menu Mobile -->
-            <nav class="menu-mobile">
-                <h2><span class="material-icons">reorder</span></h2>
-                <ul>
-                    <li class="selected"><a href="#">Início</a></li>
-                    <li><a href="sobre.html">Sobre</a></li>
-                    <li><a href="contato.html">Contato</a></li>
-                </ul>
-            </nav>
-            <div class="clear"></div>
-        </div>
-    </header>
-    <section class="main-bg">
-        <div class="overlay"></div>
-        <div class="container">
-            <h2>Best Planes</h2>
-            <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-                industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
-                scrambled it to make a type specimen book.
-            </p>
-            <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-                industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
-                scrambled it to make a type specimen book.
-            </p>
-            <a href="#" class="button button1">SAIBA MAIS</a>
-        </div>
-    </section>
-    <section class="diferenciais">
-        <div class="container">
-            <div class="line-text">
-                <div></div>
-                <h2>Experiência do Usuário</h2>
-            </div>
-            <div class="icones-diferenciais">
-                <div class="box-icone-single">
-                    <h2>
-                        <span class="material-icons">
-                            touch_app
-                        </span>
-                    </h2>
-                    <p>
-                        Tem raízes numa peça de literatura clássica em Latim, de 45 AC, tornando-o com mais de 2000
-                        anos.
-                    </p>
-                </div>
-                <div class="box-icone-single">
-                    <h2>
-                        <span class="material-icons">
-                            assignment_ind
-                        </span>
-                    </h2>
-                    <p>
-                        Tem raízes numa peça de literatura clássica em Latim, de 45 AC, tornando-o com mais de 2000
-                        anos.
-                    </p>
-                </div>
-                <div class="box-icone-single">
-                    <h2>
-                        <span class="material-icons">
-                            record_voice_over
-                        </span>
-                    </h2>
-                    <p>
-                        Tem raízes numa peça de literatura clássica em Latim, de 45 AC, tornando-o com mais de 2000
-                        anos.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="sobre-equipe">
-        <div class="container">
-            <div class="equipe-container">
-                <div class="line-text">
-                    <div style="width:90px;"></div>
-                    <h2>Equipe</h2>
-                </div>
-                <!--  Inicio Box Avatar -->
-                <div class="avatar-box">
-                    <div class="img-avatar" style="background-image: url('img/equipe01.png');"></div>
-                    <div class="descricao-avatar">
-                        <h3>Tux Batman</h3>
-                        <p>
-                            Ao contrário da crença popular, o Lorem Ipsum não é simplesmente texto aleatório.
-                        </p>
-                    </div>
-                </div>
-                <!--  Inicio Box Avatar -->
-                <div class="avatar-box">
-                    <div class="img-avatar" style="background-image: url('img/equipe02.png');"></div>
-                    <div class="descricao-avatar">
-                        <h3>Tux Juiz Dredd</h3>
-                        <p>
-                            Ao contrário da crença popular, o Lorem Ipsum não é simplesmente texto aleatório.
-                        </p>
-                    </div>
-                </div>
-            </div><!-- Equipe -->
-            <div class="sobre-container">
-                <div class="line-text">
-                    <div style="width:70px;"></div>
-                    <h2>Sobre</h2>
-                    <p>
-                        Existem muitas variações das passagens do Lorem Ipsum disponíveis, mas a maior parte sofreu
-                        alterações de alguma forma, pela injecção de humor, ou de palavras aleatórias que nem sequer
-                        parecem suficientemente credíveis.
-                    </p>
-                    <p>
-                        Existem muitas variações das passagens do Lorem Ipsum disponíveis, mas a maior parte sofreu
-                        alterações de alguma forma, pela injecção de humor, ou de palavras aleatórias que nem sequer
-                        parecem suficientemente credíveis.
-                    </p>
-                </div>
-            </div><!-- sobre -->
-        </div><!-- container -->
-    </section><!-- sobre equipe -->
+		<section class="inscricao">
+			<div class="container">
+				<div class="w50 center">
+					<h2 class="inscricao-texto">
+						<span class="material-icons"> speaker_notes </span>
+						Inscreva-se na nossa lista
+					</h2>
+				</div>
+				<div class="w50 center">
+					<form class="inscricao-form">
+						<input type="email" name="email" />
+						<input type="submit" name="acao" value="Enviar!" />
+					</form>
+				</div>
+				<div class="clear"></div>
+			</div>
+		</section>
 
-    <section class="inscricao">
-        <div class="container">
-            <div class="w50 center">
-                <h2 class="inscricao-texto">
-                    <span class="material-icons">
-                        speaker_notes
-                    </span>
-                    Inscreva-se na nossa lista
-                </h2>
-            </div>
-            <div class="w50 center">
-                <form class="inscricao-form">
-                    <input type="email" name="email">
-                    <input type="submit" name="acao" value="Enviar!">
-                </form>
-            </div>
-            <div class="clear"></div>
-        </div>
-    </section>
+		<section class="cards">
+			<div class="container">
+				<div class="card-single">
+					<img src="img/Fokkerdr1.png" />
+					<h3>Fokker Dr 1</h3>
+					<p>
+						É um facto estabelecido de que um leitor é distraído pelo conteúdo
+						legível de uma página quando analisa a sua mancha gráfica.
+					</p>
+				</div>
+				<div class="card-single">
+					<img src="img/bf109f4.png" />
+					<h3>Me 109 F4</h3>
+					<p>
+						É um facto estabelecido de que um leitor é distraído pelo conteúdo
+						legível de uma página quando analisa a sua mancha gráfica.
+					</p>
+				</div>
+				<div class="card-single">
+					<img src="img/F22.png" />
+					<h3>F-22</h3>
+					<p>
+						É um facto estabelecido de que um leitor é distraído pelo conteúdo
+						legível de uma página quando analisa a sua mancha gráfica.
+					</p>
+				</div>
+				<div class="clear"></div>
+			</div>
+		</section>
 
-    <section class="cards">
-        <div class="container">
-            <div class="card-single">
-                <img src="img/Fokkerdr1.png">
-                <h3>Fokker Dr 1</h3>
-                <p>
-                    É um facto estabelecido de que um leitor é distraído pelo conteúdo legível de uma página quando
-                    analisa a sua mancha gráfica.
-                </p>
-            </div>
-            <div class="card-single">
-                <img src="img/bf109f4.png">
-                <h3>Me 109 F4</h3>
-                <p>
-                    É um facto estabelecido de que um leitor é distraído pelo conteúdo legível de uma página quando
-                    analisa a sua mancha gráfica.
-                </p>
-            </div>
-            <div class="card-single">
-                <img src="img/F22.png">
-                <h3>F-22</h3>
-                <p>
-                    É um facto estabelecido de que um leitor é distraído pelo conteúdo legível de uma página quando
-                    analisa a sua mancha gráfica.
-                </p>
-            </div>
-            <div class="clear"></div>
-        </div>
-    </section>
-
-    <footer class="footer1">
-        <div class="container">
-            <div class="w33">
-                <h2>Localização</h2>
-                <p>
-                    <span class="material-icons">
-                        location_on
-                    </span>
-                    Rua Testes, 100
-                </p>
-                <p>
-                    <span class="material-icons">
-                        phone
-                    </span>
-                    (12)3885-5555
-                </p>
-            </div>
-            <div class="w33">
-                <h2>Links Uteis</h2>
-                <a href="ifspcaraguatatuba.edu.br">
-                    IFSP - Caraguatatuba
-                </a>
-                <a href="www.google.com.br">
-                    Google
-                </a>
-            </div>
-            <div class="w33">
-                <h2>Conecte-se conosco</h2>
-                <div class="group-icons">
-                    <a href="#">
-                        <span class="material-icons">
-                            facebook
-                        </span>
-                    </a>
-                    <a href="#">
-                        <span class="material-icons">
-                            school
-                        </span>
-                    </a>
-                </div>
-            </div>
-            <div class="clear"></div>
-        </div>
-    </footer>
-    <footer class="footer2">
-        <div class="container">
-            <p>
-                &copy;
-                Denny Azevedo & Marilene Esquiavoni - Todos os direitos reservados
-            </p>
-        </div>
-    </footer>
-    <script src="js/jquery-3.6.0.min.js"></script>
-    <script>
-        $('nav.menu-mobile h2').click(function () {
-            $('nav.menu-mobile ul').slideToggle();
-        })
-
-    </script>
-</body>
-
+		<footer class="footer1">
+			<div class="container">
+				<div class="w33">
+					<h2>Localização</h2>
+					<p>
+						<span class="material-icons"> location_on </span>
+						Rua Testes, 100
+					</p>
+					<p>
+						<span class="material-icons"> phone </span>
+						(12)3885-5555
+					</p>
+				</div>
+				<div class="w33">
+					<h2>Links Uteis</h2>
+					<a href="ifspcaraguatatuba.edu.br"> IFSP - Caraguatatuba </a>
+					<a href="www.google.com.br"> Google </a>
+				</div>
+				<div class="w33">
+					<h2>Conecte-se conosco</h2>
+					<div class="group-icons">
+						<a href="#">
+							<span class="material-icons"> facebook </span>
+						</a>
+						<a href="#">
+							<span class="material-icons"> school </span>
+						</a>
+					</div>
+				</div>
+				<div class="clear"></div>
+			</div>
+		</footer>
+		<footer class="footer2">
+			<div class="container">
+				<p>
+					&copy; Denny Azevedo & Marilene Esquiavoni - Todos os direitos
+					reservados
+				</p>
+			</div>
+		</footer>
+		<script src="js/jquery-3.6.0.min.js"></script>
+		<script>
+			$("nav.menu-mobile h2").click(function () {
+				$("nav.menu-mobile ul").slideToggle();
+			});
+		</script>
+	</body>
 </html>
